@@ -20,10 +20,11 @@ class MusicLibraryController
     input = gets.strip
 
     case input
-    when condition
-      
+    when "list songs"
+      list_songs
+
     end
-    
+
     end
   end
 
